@@ -2,6 +2,9 @@
   "name": "sgm-20210915",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "@types/react-image-gallery": "^1.0.4"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
