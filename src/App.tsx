@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import SOSImageGallery from './components/sos-image-gallery/SOSImageGallery';
+import SOSGalleryRouter from './components/sos-gallery-router/SOSGalleryRouter';
 import GALLERIES from './data/galleries';
+import './App.css';
 
 function App() {
   return (
     <div>
-      <SOSImageGallery gallery={GALLERIES[1]} />
+      <SOSGalleryRouter galleries={GALLERIES} />
     </div>
   );
 }
