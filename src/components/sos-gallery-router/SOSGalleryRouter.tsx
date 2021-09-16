@@ -11,7 +11,7 @@ const SOSGalleryRouter: React.FC<{ galleries: Gallery[] }> = ({ galleries }) => 
         <Router basename={CONFIG.baseurl}>
             <Switch>
                 {galleries.map(gallery => (
-                    <Route path={`/${gallery.path}`}>
+                    <Route path={gallery.path}>
                         <SOSImageGallery gallery={gallery} />
                     </Route>
                 ))}
