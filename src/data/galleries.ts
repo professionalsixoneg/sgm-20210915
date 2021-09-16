@@ -1,6 +1,6 @@
 import Gallery from './../models/gallery';
 
-export const GALLERIES: Gallery[] = [
+const GALLERIES: Gallery[] = [
     {
         path: "intro",
         title: "Intro to Sant Rajender Singh Ji Maharaj",
@@ -176,3 +176,5 @@ export const GALLERIES: Gallery[] = [
         ],
     },
 ];
+
+export default GALLERIES;
