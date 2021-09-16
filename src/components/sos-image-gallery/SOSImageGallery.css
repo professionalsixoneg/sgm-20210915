@@ -11,18 +11,23 @@
   padding: 5vh 10vw;
 }
 
-/*
 .image-gallery-content .image-gallery-slide {
-  max-height: 70vh;
+  height: 75vh;
 }
 
 .image-gallery-content .image-gallery-slide .image-gallery-image {
-  max-height: 70vh;
+  max-height: 75vh;
+  max-width: 90%;
   width: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .image-gallery-thumbnail .image-gallery-thumbnail-image {
-  max-height: 8vh;
+  max-height: 10vh;
+  max-width: 90%;
   width: auto;
 }
-*/
