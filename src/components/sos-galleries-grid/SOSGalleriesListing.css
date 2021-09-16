@@ -24,3 +24,23 @@
   display: block;
   text-align: center;
 }
+
+.sos-gallery-tile-photo-button,
+.sos-gallery-tile-3d-button {
+  display: inline-block;
+  width: 50%;
+}
+
+.sos-gallery-tile-photo-button {
+  text-align: left;
+}
+
+.sos-gallery-tile-3d-button {
+  text-align: right;
+}
+
+.sos-gallery-tile-photo-button-only {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}

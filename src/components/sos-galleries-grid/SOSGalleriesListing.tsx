@@ -11,18 +11,30 @@ const SOSGalleriesListing: React.FC<{ galleries: Gallery[] }> = ({ galleries }) 
             <Row>
                 {galleries.map(gallery => (
                     <Col xs="12" md="6" lg="4">
-                        <Link to={`/${gallery.path}`} className="sos-gallery-tile-link">
-                            <div className="sos-gallery-tile-container">
+                        <div className="sos-gallery-tile-container">
+                            <Link to={`/${gallery.path}`} className="sos-gallery-tile-link">
                                 <div className="sos-gallery-tile-banner">
                                     <img src={gallery.banner} alt={gallery.title} />
                                 </div>
-                                <span className="sos-gallery-tile-title">{gallery.title}</span>
-                            </div>
-                        </Link>
+                            </Link>
+                            <Link to={`/${gallery.path}`} className="sos-gallery-tile-link">
+                                <span className={gallery.babylon ? "sos-gallery-tile-photo-button" : "sos-gallery-tile-photo-button-only"}>
+                                    Photo Gallery
+                                </span>
+                            </Link>
+                            {
+                                gallery.babylon &&
+                                <a href={gallery.babylon} className="sos-gallery-tile-link">
+                                    <span className="sos-gallery-tile-3d-button">
+                                        Explore 3d
+                                    </span>
+                                </a>
+                            }
+                        </div>
                     </Col>
                 ))}
             </Row>
-        </Container>
+        </Container >
     );
 }
 
