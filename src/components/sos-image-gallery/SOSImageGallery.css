@@ -1,16 +1,21 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .sos-gallery-container {
+  padding: 5vh 10vw;
 }
 
 /*
-.image-gallery-slide img {
-  width: auto;
-  height: 400px;
+.image-gallery-content .image-gallery-slide {
+  max-height: 70vh;
 }
 
-.image-gallery-thumbnail img {
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 70vh;
   width: auto;
-  height: 80px;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+  max-height: 8vh;
+  width: auto;
 }
 */
