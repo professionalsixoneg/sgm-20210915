@@ -1,5 +1,4 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
 import ReactImageGallery, { ReactImageGalleryItem } from 'react-image-gallery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Gallery from '../../models/gallery';
