@@ -1,0 +1,26 @@
+.sos-galleries-listing-container {
+  padding: 0.5em;
+}
+
+.sos-gallery-tile-container {
+  margin: 0.5em;
+}
+
+.sos-gallery-tile-banner {
+  padding: 1em 0em;
+}
+
+.sos-gallery-tile-banner img {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10%;
+}
+
+.sos-gallery-tile-link {
+  text-decoration: none;
+}
+
+.sos-gallery-tile-title {
+  display: block;
+  text-align: center;
+}
