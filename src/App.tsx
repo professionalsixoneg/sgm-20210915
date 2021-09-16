@@ -4,11 +4,7 @@ import GALLERIES from './data/galleries';
 import './App.css';
 
 function App() {
-  return (
-    <div>
-      <SOSGalleryRouter galleries={GALLERIES} />
-    </div>
-  );
+  return <SOSGalleryRouter galleries={GALLERIES} />;
 }
 
 export default App;
