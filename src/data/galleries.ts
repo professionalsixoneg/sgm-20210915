@@ -13,6 +13,7 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_1_Intro_to_SRSJM/Floor1_4_P2263636-1-nov.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_1_Intro_to_SRSJM/Floor2_2_Scan-130.jpg",
         ],
+        babylon: "https://smig-20210916.vercel.app/",
     },
     {
         path: "tours",
@@ -73,6 +74,7 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall7_AU_05_P4110109-Recovered.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall7_AU_06_july_1.jpg",
         ],
+        babylon: "https://swtg-20210914.vercel.app/",
     },
     {
         path: "books",
