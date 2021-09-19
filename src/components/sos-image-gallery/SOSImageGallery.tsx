@@ -6,8 +6,10 @@ import CONFIG from '../../data/config';
 import Gallery from '../../models/gallery';
 import useQuery from '../../utils/useQuery';
 import './SOSImageGallery.css';
+import NarrationOverlay from '../narration-overlay/NarrationOverlay';
 
 const SOSImageGallery: React.FC<{ gallery: Gallery }> = ({ gallery }) => {
+    const [isNarrationDone, setIsNarrationDone] = React.useState(false);
     const query = useQuery();
 
     const getLobbyLink = () => {
@@ -54,6 +56,16 @@ const SOSImageGallery: React.FC<{ gallery: Gallery }> = ({ gallery }) => {
                     })}
                 />
             </div>
+            {!isNarrationDone &&
+                <NarrationOverlay
+                    delay={CONFIG.narrationMarqueeAnimationDelay}
+                    speed={CONFIG.narrationMarqueeAnimationSpeed}
+                    loop={1}
+                    onFinish={() => setIsNarrationDone(true)}
+                >
+                    {gallery.narration_text}
+                </NarrationOverlay>
+            }
         </>
     );
 }
