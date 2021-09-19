@@ -1,33 +1,41 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .sos-back-to-lobby-button {
-  position: absolute;
-  left: 2em;
-  top: 2em;
-  z-index: 10;
+    position: absolute;
+    left: 2em;
+    top: 2em;
+    z-index: 10;
+    background-color: #666;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50% 0%;
+    font-size: 1em;
+    opacity: 0.55;
+    cursor: pointer;
 }
 
 .sos-gallery-container {
-  padding: 5vh 10vw;
+    padding: 5vh 10vw;
 }
 
 .image-gallery-content .image-gallery-slide {
-  height: 75vh;
+    height: 75vh;
 }
 
 .image-gallery-content .image-gallery-slide .image-gallery-image {
-  max-height: 75vh;
-  max-width: 90%;
-  width: auto;
+    max-height: 75vh;
+    max-width: 90%;
+    width: auto;
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .image-gallery-thumbnail .image-gallery-thumbnail-image {
-  max-height: 10vh;
-  max-width: 90%;
-  width: auto;
+    max-height: 10vh;
+    max-width: 90%;
+    width: auto;
 }

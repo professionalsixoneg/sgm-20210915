@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactImageGallery, { ReactImageGalleryItem } from 'react-image-gallery';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import CONFIG from '../../data/config';
 import Gallery from '../../models/gallery';
 import useQuery from '../../utils/useQuery';
@@ -32,16 +31,16 @@ const SOSImageGallery: React.FC<{ gallery: Gallery }> = ({ gallery }) => {
                 if (isExternal(link))
                     return (
                         <a href={link}>
-                            <div className="sos-back-to-lobby-button btn btn-light">
-                                Back to Lobby
+                            <div className="sos-back-to-lobby-button">
+                                Back to Galleries
                             </div>
                         </a>
                     );
                 else
                     return (
                         <Link to={link}>
-                            <div className="sos-back-to-lobby-button btn btn-light">
-                                Back to Lobby
+                            <div className="sos-back-to-lobby-button">
+                                Back to Galleries
                             </div>
                         </Link>
                     );
