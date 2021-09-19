@@ -15,7 +15,8 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_1_Intro_to_SRSJM/Floor2_2_Scan-130.jpg",
         ],
         babylon: "https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/spreading-peace-and-joy/",
-        narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Gallery_on_SRSJM_Lifes_work.wav",
+        // narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Gallery_on_SRSJM_Lifes_work.wav",
+        narration_audio: "https://sos-diamond-jubilee-exhibitions.s3.amazonaws.com/galleries/spreading-peace-and-joy/sosgal01-main/assets/narration/gallery-intro.wav",
         narration_text: `
             Welcome to the Gallery on Sant Rajinder Singh Ji Maharaj’s Life’s Work to Spread Peace and Joy through Meditation. 
             Sant Rajinder Singh Ji Maharaj’s life’s work has been to share the meditation practices so people of all backgrounds can experience the wonders, joy, and peace that the inner Light and Sound bring.
@@ -88,7 +89,8 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall7_AU_06_july_1.jpg",
         ],
         babylon: "https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/world-tours/",
-        narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Intro_to_World_Tours-full.wav",
+        // narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Intro_to_World_Tours-full.wav",
+        narration_audio: "https://sos-diamond-jubilee-exhibitions.s3.amazonaws.com/galleries/world-tours/sosgal02-main/assets/narration/gallery-intro.wav",
         narration_text: `
             Welcome to the Gallery of Sant Rajinder Singh Ji Maharaj’s World Tours. Sant Rajinder Singh Ji Maharaj selflessly dedicates his life to helping people throughout the world experience the treasures of peace, happiness, and spiritual consciousness within through meditation on the inner Light and Sound.
             Since 1989, in loving service to humanity, he continuously and tirelessly crisscrosses the globe holding tour programs of public talks on meditation for inner and outer peace and happiness followed by meditation sittings. They often include questions and answer sessions, group and personal interviews, and meet and greets. During these programs he has been tirelessly spending hours walking through the aisles of the audience, often numbering from thousands to sometimes over 100,000 at a time, to greet people more closely. He generously provides multiple opportunities for countless millions to meet him to deepen their spiritual progress and awaken them to the wondrous experiences awaiting within. 
@@ -127,7 +129,8 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_World_Centers/Wall4_25_P1230215.jpg",
         ],
         babylon: "https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/world-centers/",
-        narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Worldwide_SOS_Centers.wav",
+        // narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Worldwide_SOS_Centers.wav",
+        narration_audio: "https://sos-diamond-jubilee-exhibitions.s3.amazonaws.com/galleries/world-centers/sosgal03-main/assets/narration/gallery-intro.wav",
         narration_text: `
             Welcome to the Gallery of Sant Rajinder Singh Ji Maharaj’s Worldwide Science of Spirituality Centers. Sant Rajinder Singh Ji Maharaj’s dedicated work has raised awareness and grown the popularity of meditation through his travels and establishing over 3,200 Science of Spirituality centers in over 50 countries, Each Science of Spirituality center provides programs to the public where people can learn meditation, meditate together, deepen their inner growth, and join together to offer selfless service to humanity.
             The map and chart of Sant Rajinder Singh Ji Maharaj’s worldwide Science of Spirituality centers shows the large number of centers on 6 continents.
@@ -171,7 +174,8 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Conferences/Section3_12_31-Veggie-Fest-v2.jpg",
         ],
         babylon: "https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/conferences-recognitions/",
-        narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Conferences_and_Global_Recognition.wav",
+        // narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Conferences_and_Global_Recognition.wav",
+        narration_audio: "https://sos-diamond-jubilee-exhibitions.s3.amazonaws.com/galleries/conferences-recognitions/sosgal05-main/assets/narration/gallery-intro.wav",
         narration_text: `
             Welcome to The Gallery of  Global Recognition of Sant Rajinder Singh Ji Maharaj’s World Conferences and Global Recognition for His Humanitarian Work featuring the many prestigious venues at which he has spoken. This includes the United Nations, where he spoke at its 50th Anniversary and opened the program by putting thousands of people into meditation.
             Sant Rajinder Singh Ji addressed the United States Coast Guard Academy on the moral dimensions of leadership. He has also spoken in prestigious universities and medical institutions around the world, including the National Institutes of Health.
@@ -214,7 +218,8 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Books/Wall4_20scan0013.jpg",
         ],
         babylon: "https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/books-publications/",
-        narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Gallery_of_intl_books_and_social_media.wav",
+        // narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Gallery_of_intl_books_and_social_media.wav",
+        narration_audio: "https://sos-diamond-jubilee-exhibitions.s3.amazonaws.com/galleries/books-publications/sosgal04-main/assets/narration/gallery-intro.wav",
         narration_text: `
             Welcome to the Gallery of  International Books, E-books, Audiobooks, Audio and Video Media, Radio, TV, Internet broadcasts, Websites, Podcasts, and Social Media. 
             The magnitude of Sant Rajinder Singh Ji Maharaj’s efforts is also expressed by his labor of love in producing over 340 books in 56 languages totaling over 1700 titles since 1989 sharing with humanity the benefits of meditation and how it can be practiced. 
@@ -247,7 +252,8 @@ const GALLERIES: Gallery[] = [
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Social_Services/Wall3_12_Magazine_Insertion_Final_(2)_2.jpg",
         ],
         babylon: "https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/selfless-services/",
-        narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Selfless_Service_and_Charitable_work.wav",
+        // narration_audio: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Narration/Selfless_Service_and_Charitable_work.wav",
+        narration_audio: "https://sos-diamond-jubilee-exhibitions.s3.amazonaws.com/galleries/selfless-services/sosgal06-main/assets/narration/gallery-intro.wav",
         narration_text: `
             Welcome to The Gallery of Sant Rajinder Singh Ji Maharaj’s Selfless Service and Charitable, Humanitarian Work which highlights the depth of his universal love and caring for all people as expressed through the many humanitarian efforts he leads to aid those in need. 
             Selfless service is one of the hallmark contributions of  Sant Rajinder Singh Ji Maharaj’s life’s work. It encompasses helping more than just our own physical families; it includes all humanity. 
