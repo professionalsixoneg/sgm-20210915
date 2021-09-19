@@ -27,7 +27,7 @@ const CONFIG: Config = {
     defaultLobbyLink: "/",
     sourceQueryParameterName: "source",
     sourceQueryParameterValuesToLobbyLinks: {
-        "virtual": "https://www.sos.org/diamond-jubilee/exhibhition/virtual",
+        "virtual": "https://www.sos.org/diamond-jubilee/exhibhition-hall/virtual/",
     },
 
     exitLink: "https://diamondjubilee.sos.org/en/hall",

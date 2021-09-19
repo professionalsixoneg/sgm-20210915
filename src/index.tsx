@@ -7,7 +7,7 @@ import CONFIG from './data/config';
 // import reportWebVitals from './reportWebVitals';
 
 (async function () {
-  const configResponse = await fetch("https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/AppConfig/AppConfig.json");
+  const configResponse = await fetch(`https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/gallery-config/config.json?v=${new Date().getTime()}`);
 
   const configJSON = await configResponse.json();
 
