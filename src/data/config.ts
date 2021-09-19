@@ -6,7 +6,7 @@ const CONFIG: Config = {
     narrationMarqueeAnimationDelay: 1,
     narrationMarqueeAnimationSpeed: 65,
 
-    entryHall3DLink: "https://www.sos.org/diamond-jubilee/exhibition-hall/",
+    entryHall3DLink: "https://www.sos.org/diamond-jubilee/exhibition-hall/virtual/",
     entryHallGalleryId: 0,
     entryHallNarrationAudio: "https://sos-diamond-jubilee-exhibitions.s3.amazonaws.com/galleries/entry-hall/20210918/assets/narration/gallery-intro.wav",
     entryHallNarrationText: `
