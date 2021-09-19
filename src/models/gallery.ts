@@ -1,4 +1,5 @@
 type Gallery = {
+    id: number;
     path: string;
     title: string;
     description: string;
