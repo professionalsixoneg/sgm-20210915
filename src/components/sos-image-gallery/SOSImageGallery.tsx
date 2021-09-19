@@ -9,7 +9,16 @@ import NarrationOverlay from '../narration-overlay/NarrationOverlay';
 
 const SOSImageGallery: React.FC<{ gallery: Gallery }> = ({ gallery }) => {
     const [isNarrationDone, setIsNarrationDone] = React.useState(false);
+    const audioNarrationRef = React.useRef<HTMLAudioElement>(null);
+    const audioNarrationButtonRef = React.useRef<HTMLDivElement>(null);
     const query = useQuery();
+
+    const startNarration = () => {
+        audioNarrationRef.current?.play();
+        if (audioNarrationButtonRef.current) {
+            audioNarrationButtonRef.current.style.display = 'none';
+        }
+    }
 
     const getLobbyLink = () => {
         const sourceQueryParameterValue = query.get(CONFIG.sourceQueryParameterName);
@@ -31,7 +40,7 @@ const SOSImageGallery: React.FC<{ gallery: Gallery }> = ({ gallery }) => {
                 if (isExternal(link))
                     return (
                         <a href={link}>
-                            <div className="sos-back-to-lobby-button">
+                            <div className="sos-gallery-button sos-back-to-lobby-button">
                                 Back to Galleries
                             </div>
                         </a>
@@ -39,12 +48,15 @@ const SOSImageGallery: React.FC<{ gallery: Gallery }> = ({ gallery }) => {
                 else
                     return (
                         <Link to={link}>
-                            <div className="sos-back-to-lobby-button">
+                            <div className="sos-gallery-button sos-back-to-lobby-button">
                                 Back to Galleries
                             </div>
                         </Link>
                     );
             })()}
+            <div ref={audioNarrationButtonRef} onClick={startNarration} className="sos-gallery-button sos-audio-narration-button">
+                Audio Narration
+            </div>
             <div className="sos-gallery-container">
                 <ReactImageGallery
                     items={gallery.images.map<ReactImageGalleryItem>(img => {
@@ -55,7 +67,11 @@ const SOSImageGallery: React.FC<{ gallery: Gallery }> = ({ gallery }) => {
                     })}
                 />
             </div>
-            {!isNarrationDone &&
+            <div style={{ display: 'none' }}>
+                <audio id={`sos-narration-${gallery.id}`} src={gallery.narration_audio} autoPlay={false} ref={audioNarrationRef} />
+            </div>
+            {
+                !isNarrationDone &&
                 <NarrationOverlay
                     delay={CONFIG.narrationMarqueeAnimationDelay}
                     speed={CONFIG.narrationMarqueeAnimationSpeed}
