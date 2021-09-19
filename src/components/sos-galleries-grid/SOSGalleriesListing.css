@@ -38,7 +38,8 @@
 .sos-gallery-tile-banner img {
     max-width: 100%;
     object-fit: contain;
-    border-radius: 10%;
+    /* border-radius: 10%; */
+    border: 8px solid darkgoldenrod;
 }
 
 .sos-gallery-tile-link {
