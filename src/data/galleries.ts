@@ -190,7 +190,7 @@ const GALLERIES: Gallery[] = [
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
         banner: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Banners/005_Books_Media.jpg",
         images: [
-            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Books/Wall1_01_56_Languages_Chart.jpg",
+            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Books/Wall1_01_56_Languages_Chart_New.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Books/Wall1_02_image001.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Books/Wall1_03_2021_03_English_Inner_and_Outer_eBook-cover.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_Books/Wall1_04_cover_audiobook_inner_and_outer_peace_v2.jpg",
