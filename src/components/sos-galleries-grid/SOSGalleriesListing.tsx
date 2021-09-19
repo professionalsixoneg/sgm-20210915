@@ -34,7 +34,7 @@ const SOSGalleriesListing: React.FC<{ galleries: Gallery[] }> = ({ galleries }) 
                                     </Link>
                                     {
                                         gallery.babylon &&
-                                        <a href={gallery.babylon} className="sos-gallery-tile-link" target="_blank" rel="noreferrer">
+                                        <a href={gallery.babylon} className="sos-gallery-tile-link">
                                             <span className="sos-gallery-tile-3d-button">
                                                 Explore 3d
                                             </span>
