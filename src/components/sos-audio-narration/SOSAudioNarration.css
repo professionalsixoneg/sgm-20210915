@@ -1,17 +1,20 @@
-.sos-audio-narration-button {
-    position: absolute;
-    top: 2em;
-    right: 2em;
+.sos-gallery-button.sos-audio-narration-button {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  border: 2px solid #043a5b;
+  background-color: transparent;
+  color: #043a5b;
+  font-weight: 600;
 }
 
 .sos-gallery-button {
-    z-index: 10;
-    background-color: #666;
-    border: 1px solid #333;
-    padding: 10px 20px;
-    color: white;
-    border-radius: 50% 0%;
-    font-size: 1em;
-    opacity: 0.55;
-    cursor: pointer;
+  z-index: 10;
+  background-color: #666;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 50% 0%;
+  font-size: 1em;
+  cursor: pointer;
 }
