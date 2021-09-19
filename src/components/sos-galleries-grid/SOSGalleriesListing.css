@@ -32,7 +32,7 @@
 }
 
 .sos-gallery-tile-banner {
-    padding: 1em 0em;
+    padding: 0em 0em;
 }
 
 .sos-gallery-tile-banner img {
@@ -56,29 +56,38 @@
 .sos-gallery-tile-3d-button {
     display: inline-block;
     text-align: center;
-    width: 40%;
-    background-color: #666;
-    border: 1px solid #333;
-    padding: 10px 20px;
+    width: 50%;
+    background-color: #043a5b;
+    border: 1px solid white;
+    border: 0px 1px;
+    padding: 10px 0px;
     color: white;
     font-size: 1em;
-    opacity: 0.55;
     cursor: pointer;
 }
 
 .sos-gallery-tile-photo-button {
     float: left;
-    border-radius: 0% 45%;
 }
 
 .sos-gallery-tile-3d-button {
     float: right;
-    border-radius: 45% 0%;
 }
 
 .sos-gallery-tile-photo-button-only {
     float: none;
     margin: auto;
     display: block;
-    border-radius: 45% 0%;
+}
+
+/*
+.sos-3d-gallery-hall-button {
+    position: absolute;
+    bottom: 5em;
+    left: 2em;
+}
+*/
+
+.sos-3d-gallery-hall-button-wrapper {
+    margin-top: 3em;
 }

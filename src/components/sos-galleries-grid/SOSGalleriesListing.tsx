@@ -46,6 +46,11 @@ const SOSGalleriesListing: React.FC<{ galleries: Gallery[] }> = ({ galleries }) 
                         </Col>
                     ))}
                 </Row>
+                <Row className="sos-3d-gallery-hall-button-wrapper">
+                    <a href={CONFIG.entryHall3DLink} className="sos-gallery-tile-link">
+                        <span className="sos-gallery-button sos-3d-gallery-hall-button">Virtual Gallery Hall</span>
+                    </a>
+                </Row>
             </Container >
             <SOSAudioNarration
                 id={CONFIG.entryHallGalleryId}

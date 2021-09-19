@@ -4,6 +4,7 @@ type Config = {
     narrationMarqueeAnimationDelay: number,
     narrationMarqueeAnimationSpeed: number,
 
+    entryHall3DLink: string,
     entryHallGalleryId: number,
     entryHallNarrationAudio: string,
     entryHallNarrationText: string,
