@@ -7,12 +7,18 @@ import CONFIG from './data/config';
 // import reportWebVitals from './reportWebVitals';
 
 (async function () {
-  const configResponse = await fetch(`https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/gallery-config/config.json?v=${new Date().getTime()}`);
 
-  const configJSON = await configResponse.json();
+  try {
+    const configResponse = await fetch(`https://www.sos.org/diamond-jubilee/exhibition-hall/galleries/gallery-config/config.json?v=${new Date().getTime()}`);
 
-  Object.assign(GALLERIES, configJSON.Galleries);
-  Object.assign(CONFIG, configJSON.Config);
+    const configJSON = await configResponse.json();
+
+    Object.assign(GALLERIES, configJSON.Galleries);
+    Object.assign(CONFIG, configJSON.Config);
+  } catch (apiException) {
+    console.log(apiException);
+  }
+
 
   ReactDOM.render(
     <React.StrictMode>
