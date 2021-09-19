@@ -1,0 +1,17 @@
+.sos-audio-narration-button {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
+
+.sos-gallery-button {
+    z-index: 10;
+    background-color: #666;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50% 0%;
+    font-size: 1em;
+    opacity: 0.55;
+    cursor: pointer;
+}
