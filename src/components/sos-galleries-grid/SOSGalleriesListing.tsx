@@ -15,6 +15,7 @@ const SOSGalleriesListing: React.FC<{ galleries: Gallery[] }> = ({ galleries }) 
                     Back to Lobby
                 </div>
             </a>
+            <div className="sos-exhibition-hall-banner" />
             <Container className="sos-galleries-listing-container">
                 <Row>
                     {galleries.map(gallery => (

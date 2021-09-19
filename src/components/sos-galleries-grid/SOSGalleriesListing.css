@@ -1,3 +1,10 @@
+.sos-exhibition-hall-banner {
+    height: 150px;
+    background-image: url("https://sos.org/diamond-jubilee/exhibition-hall/galleries/entry-hall/sos-galleries-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .sos-exit-button {
     position: absolute;
     top: 2em;
