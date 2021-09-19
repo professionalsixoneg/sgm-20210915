@@ -53,15 +53,24 @@
 .sos-gallery-tile-photo-button,
 .sos-gallery-tile-3d-button {
     display: inline-block;
-    width: 50%;
+    text-align: center;
+    width: 40%;
+    background-color: #666;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 45% 0%;
+    font-size: 1em;
+    opacity: 0.55;
+    cursor: pointer;
 }
 
 .sos-gallery-tile-photo-button {
-    text-align: left;
+    float: left;
 }
 
 .sos-gallery-tile-3d-button {
-    text-align: right;
+    float: right;
 }
 
 .sos-gallery-tile-photo-button-only {

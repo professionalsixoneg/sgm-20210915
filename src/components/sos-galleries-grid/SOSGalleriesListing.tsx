@@ -26,19 +26,22 @@ const SOSGalleriesListing: React.FC<{ galleries: Gallery[] }> = ({ galleries }) 
                                         <img src={gallery.banner} alt={gallery.title} />
                                     </div>
                                 </Link>
-                                <Link to={gallery.path} className="sos-gallery-tile-link">
-                                    <span className={gallery.babylon ? "sos-gallery-tile-photo-button" : "sos-gallery-tile-photo-button-only"}>
-                                        Photo Gallery
-                                    </span>
-                                </Link>
-                                {
-                                    gallery.babylon &&
-                                    <a href={gallery.babylon} className="sos-gallery-tile-link" target="_blank" rel="noreferrer">
-                                        <span className="sos-gallery-tile-3d-button">
-                                            Explore 3d
+                                <div>
+                                    <Link to={gallery.path} className="sos-gallery-tile-link">
+                                        <span className={gallery.babylon ? "sos-gallery-tile-photo-button" : "sos-gallery-tile-photo-button-only"}>
+                                            Photo Gallery
                                         </span>
-                                    </a>
-                                }
+                                    </Link>
+                                    {
+                                        gallery.babylon &&
+                                        <a href={gallery.babylon} className="sos-gallery-tile-link" target="_blank" rel="noreferrer">
+                                            <span className="sos-gallery-tile-3d-button">
+                                                Explore 3d
+                                            </span>
+                                        </a>
+                                    }
+                                </div>
+                                <div style={{ clear: "both" }}></div>
                             </div>
                         </Col>
                     ))}
