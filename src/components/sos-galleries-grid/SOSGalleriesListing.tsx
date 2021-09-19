@@ -10,6 +10,11 @@ import CONFIG from '../../data/config';
 const SOSGalleriesListing: React.FC<{ galleries: Gallery[] }> = ({ galleries }) => {
     return (
         <>
+            <a href={CONFIG.exitLink}>
+                <div className="sos-gallery-button sos-exit-button">
+                    Back to Lobby
+                </div>
+            </a>
             <Container className="sos-galleries-listing-container">
                 <Row>
                     {galleries.map(gallery => (

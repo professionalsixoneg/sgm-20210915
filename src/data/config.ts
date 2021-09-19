@@ -28,6 +28,8 @@ const CONFIG: Config = {
     sourceQueryParameterValuesToLobbyLinks: {
         "virtual": "https://www.sos.org/diamond-jubilee/exhibhition/virtual",
     },
+
+    exitLink: "https://diamondjubilee.sos.org/en/hall",
 };
 
 export default CONFIG;

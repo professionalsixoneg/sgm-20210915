@@ -1,46 +1,64 @@
+.sos-exit-button {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+.sos-gallery-button {
+    z-index: 10;
+    background-color: #666;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50% 0%;
+    font-size: 1em;
+    opacity: 0.55;
+    cursor: pointer;
+}
+
 .sos-galleries-listing-container {
-  padding: 0.5em;
+    padding: 0.5em;
 }
 
 .sos-gallery-tile-container {
-  margin: 0.5em;
+    margin: 0.5em;
 }
 
 .sos-gallery-tile-banner {
-  padding: 1em 0em;
+    padding: 1em 0em;
 }
 
 .sos-gallery-tile-banner img {
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 10%;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10%;
 }
 
 .sos-gallery-tile-link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .sos-gallery-tile-title {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .sos-gallery-tile-photo-button,
 .sos-gallery-tile-3d-button {
-  display: inline-block;
-  width: 50%;
+    display: inline-block;
+    width: 50%;
 }
 
 .sos-gallery-tile-photo-button {
-  text-align: left;
+    text-align: left;
 }
 
 .sos-gallery-tile-3d-button {
-  text-align: right;
+    text-align: right;
 }
 
 .sos-gallery-tile-photo-button-only {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }

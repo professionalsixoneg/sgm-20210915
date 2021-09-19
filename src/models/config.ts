@@ -11,6 +11,8 @@ type Config = {
     defaultLobbyLink: string,
     sourceQueryParameterName: string,
     sourceQueryParameterValuesToLobbyLinks: { [key: string]: string },
+
+    exitLink: string,
 }
 
 export default Config;
