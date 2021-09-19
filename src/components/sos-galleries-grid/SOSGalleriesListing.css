@@ -60,7 +60,6 @@
     border: 1px solid #333;
     padding: 10px 20px;
     color: white;
-    border-radius: 45% 0%;
     font-size: 1em;
     opacity: 0.55;
     cursor: pointer;
@@ -68,14 +67,17 @@
 
 .sos-gallery-tile-photo-button {
     float: left;
+    border-radius: 0% 45%;
 }
 
 .sos-gallery-tile-3d-button {
     float: right;
+    border-radius: 45% 0%;
 }
 
 .sos-gallery-tile-photo-button-only {
     float: none;
     margin: auto;
     display: block;
+    border-radius: 45% 0%;
 }
