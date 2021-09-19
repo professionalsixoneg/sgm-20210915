@@ -1,11 +1,11 @@
 .narration-overlay {
-  position: absolute;
-  padding: 0.5em 0;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  font-size: 1.25em;
-  color: black;
-  background-color: #acacaccc;
-  z-index: 100;
+    position: fixed;
+    padding: 0.5em 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.25em;
+    color: black;
+    background-color: #acacaccc;
+    z-index: 100;
 }
