@@ -33,7 +33,8 @@ const GALLERIES: Gallery[] = [
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
         banner: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Banners/002_World_Tours.jpg",
         images: [
-            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall1_01_SOS_WorldCenters.jpg",
+            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall1_01_SOS_WorldTours.jpg",
+            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall1_02_SOS_WorldToursChart.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall2_NA_03_Initiation_Chapter.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall2_NA_04_may_1.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_2_World_Tours/Wall2_NA_05_IMG_2217-re.jpg",
@@ -102,7 +103,8 @@ const GALLERIES: Gallery[] = [
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.",
         banner: "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Banners/003_Worldwide_Centers.jpg",
         images: [
-            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_World_Centers/Wall1_01_SOS_WorldCenters.jpg",
+            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_World_Centers/Wall1_01_SOS_WorldCentersStats.jpg",
+            "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_World_Centers/Wall1_02_SOS_WorldCenters_List.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_World_Centers/Wall2_03_SKRM_INDIA_-_2766_CENTERS_IN_12_ZONES_IN_INDIA.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_World_Centers/Wall2_04_SKRM_INDIA_-_2766_CENTERS_IN_12_ZONES_IN_INDIA.jpg",
             "https://cdn.jsdelivr.net/gh/professionalsixoneg/sgall-assets-sorting@main/Gallery_World_Centers/Wall3_06_Sanctuary_Science_Of_Spirituality.jpg",
